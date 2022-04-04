@@ -1,6 +1,12 @@
 kvasec x 2
 brasno x 4
 mleko x 3
+<<<<<<< HEAD
 krem x 1
 margarin x 4
 
+=======
+zejtin x 1
+margarin x 3
+majonez x 5
+>>>>>>> branch2
