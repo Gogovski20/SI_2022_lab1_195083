@@ -1,5 +1,5 @@
 kvasec x 2
-brasno x 1
+brasno x 4
 mleko x 3
 krem x 1
 margarin x 3
