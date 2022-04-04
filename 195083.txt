@@ -1,0 +1,79 @@
+Владимир Гоговски
+https://github.com/Gogovski20/SI_2022_lab1_195083
+
+1. Направено.
+2. Направено.
+3. Направено.
+4. git clone https://github.com/Gogovski20/SI_2022_lab1_195083-клонирање на remotе репорзиториумот.
+   cd SI_2022_lab1_195083-влез во локалниот репорзиториум.
+5. touch shopping_list.txt-креирање датотека shopping_list.txt
+   nano shopping_list.txt-влез во датотеката со nano едиторот и внесување 5 продукти.
+   git add shopping_list.txt-додавање на датотеката на сцена.
+   git commit -m "Add 5 items to the shopping list"-правење комит со дадената порака.
+6. nano shopping_list.txt-влез во датотеката со nano едиторот и додавање количина на секој продукт.
+   git add shopping_list.txt-додавање на датотеката на сцена.
+   git commit -m "Add quantities to the items."-правење комит со дадената порака.
+7. git branch branch1-креирање гранка со име branch1.
+   git branch branch2-креирање гранка со име branch2.
+8. Внесено.
+9. git push-синхронизација со remote репорзиториумот.
+10. git checkout branch1-префрлање на гранката branch1.
+11. nano shopping_list.txt-влез во датотеката со nano едиторот и менување на количината на 5тиот продукт.
+    git add shopping_list.txt-додавање на датотеката на сцена.
+    git commit -m "Change quantity of item #5"-правење комит со дадената порака.
+12. git checkout master-враќање на гранката master.
+13. nano shopping_list.txt-влез во датотеката со nano едиторот и менување на количината на 2риот продукт.
+    git add shopping_list.txt-додавање на датотеката на сцена.
+    git commit -m "Change quantity of item #2"-правење комит со дадената порака.
+14. git push-синхронизација со remote репорзиториумот.
+15. git checkout branch2-префрлање на гранката branch2.
+16. nano shopping_list.txt-влез во датотеката со nano едиторот и менување на името на 4тиот продукт.
+    git add shopping_list.txt-додавање на датотеката на сцена.
+    git commit -m "Modify item #4"-правење комит со дадената порака.
+17. Внесено.
+18. nano shopping_list.txt-влез во датотеката со nano едиторот и додавање 6ти продукт.
+    git add shopping_list.txt-додавање на датотеката на сцена.
+    git commit --amend -m "Modify item #4 and add item #6"-менување на послениот комит со нова порака.
+19. Внесено.
+20. git checkout master-враќање на гранката master.
+    git merge branch1-спојување на гранката branch1 кон master.
+    Нема конфликти при спојувањето.
+    Се користи recursive strategy.
+  ->Auto-merging shopping_list.txt
+    Merge made by the 'recursive' strategy.
+    shopping_list.txt | 2 +-
+    1 file changed, 1 insertion(+), 1 deletion(-)
+21. git merge branch2-спојување на гранката branch2 кон master.
+    Се јавува конфликт.
+  ->Auto-merging shopping_list.txt
+    CONFLICT (content): Merge conflict in shopping_list.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+    git status-проверување на состојбата.
+    On branch master
+    Your branch is ahead of 'origin/master' by 2 commits.
+    (use "git push" to publish your local commits)
+
+    You have unmerged paths.
+    (fix conflicts and run "git commit")
+    (use "git merge --abort" to abort the merge)
+
+    Unmerged paths:
+    (use "git add <file>..." to mark resolution)
+        both modified:   shopping_list.txt
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    git add shopping_list.txt-додавање на датотеката на сцена.
+    nano shopping_list.txt-влез во датотеката со nano едиторот и го бришеме делот од гранката branch2 за да го решиме конфликтот.
+    git commit -m "Resolved merge conflict"-правиме комит со дадената порака.
+    [master f64a382] Resolved merge conflict-излез од командата.
+22. Ја додаваме датотеката 195083.txt во локалниот репорзиториум.
+    git add 195083.txt-ја додаваме на сцена.
+    git commit -m "Add docs"-правиме комит со дадената порака.
+23. git push-синхронизација со remote репорзиториумот.
+
+    
+    
+
+
+    
+
