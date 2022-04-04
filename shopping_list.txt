@@ -1,6 +1,6 @@
-kvasec
-brasno
-mleko
-krem
-margarin
+kvasec x 2
+brasno x 1
+mleko x 3
+krem x 1
+margarin x 3
 
